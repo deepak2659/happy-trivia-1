@@ -205,3 +205,8 @@ loop.create_task(selfbot.start("NDUxNjY5NDUyMzI1NjUwNDQy.XMBVQQ.PNuZ0VcOQsDf_Vw2
 keep_alive()
 loop.create_task(discord_send())
 loop.run_forever()
+
+
+
+
+client.run(str(os.environ.get('570839674856144896')))
